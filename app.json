@@ -1,0 +1,16 @@
+{
+  "name": "new-blog app",
+  "description": "This is new-blogapp",
+  "keywords": [],
+  "website": "",
+  "repository": "https://github.com/yuya417/new-blog-app-yuya",
+  "env": {},
+  "addons": [
+    "heroku-postgresql:hobby-dev"
+  ],
+  "buildpacks": [{
+    "url": "heroku/nodejs"
+  }, {
+    "url": "heroku/ruby"
+  }]
+}
